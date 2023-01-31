@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.headerPozadina {
+	background-image: url("../slike/header.pozadina.jpg.webp");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 60vh;
+}
+
+h1 {
+	font-size: 8rem;
+	font-family: "Ubuntu", sans-serif;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+	font-family: "Ubuntu", sans-serif;
+	gap: 10px;
+}
+
+.product {
+	background-color: rgb(250, 243, 243);
+	width: 250px;
+}
+.productImage {
+	width: 100%;
+}
+
+.flex {
+	display: flex;
+	gap: 20px;
+}
+.productFooter {
+	color: rgb(129, 3, 3);
+	justify-content: space-between;
+}
+.productName {
+	font-size: 1.8rem;
+}
+.productDetails {
+	font-size: 1.2rem;
+}
